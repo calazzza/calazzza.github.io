@@ -13,7 +13,9 @@
       </div>
     </main>
 
-    {%- include footer.html -%}
+    {%- if page.path != "404.html" -%}
+      {%- include footer.html -%}
+    {%- endif -%} 
 
   </body>
 

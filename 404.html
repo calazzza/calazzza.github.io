@@ -14,11 +14,35 @@ layout: default
     line-height: 1;
     letter-spacing: -1px;
   }
+
+  .container a,
+  .container a:hover,
+  .container a:visited {
+    color: #000;
+  }
+
+  .container a {
+    opacity: 0.6;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 3px;
+    display: block;
+  }
+
+  .container a:hover,
+  .container a:focus,
+  .container a:active {
+    opacity: 1;
+  }
 </style>
 
 <div class="container">
   <h1>404</h1>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <p><strong>Página não encontrada :(</strong></p>
+  <a href="/"">    
+      Volte à página inicial!  
+  </a>
 </div>
