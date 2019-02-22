@@ -12,7 +12,7 @@
 
 .site-title {
   @include relative-font-size(1.625);
-  font-weight: 300;
+  font-weight: bold;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
@@ -25,13 +25,14 @@
 }
 
 .home .site-h1 {
-  font-size: 80px;
+  font-size: 85px;
   font-weight: bold;
   padding: 0;
   margin: 0;
   opacity: 0;
-  animation: fadeIn .5s forwards ease-in-out;
+  animation: fadeIn 1.5s forwards ease-in-out;
   animation-delay: .5s;
+  text-align: center;
 }
 
 @keyframes fadeIn {
@@ -198,8 +199,7 @@
   padding: $spacing-unit 0;
   flex: 1;
   display: flex;
-  align-items: center;
-  /* text-align: center; */
+  align-items: center;  
 }
 
 .page-heading {
@@ -251,6 +251,10 @@
 .post-content {
   margin-bottom: $spacing-unit;
 
+  p {
+    text-align: justify;
+  }
+
   h2 {
     @include relative-font-size(2);
 
@@ -274,4 +278,9 @@
       @include relative-font-size(1.125);
     }
   }
+}
+
+.subop {
+  color: rgb(117, 117, 117);
+  font-style: italic;
 }
