@@ -4,7 +4,7 @@ title: Sobre mim
 permalink: /about/
 ---
 
-Me chamo **Thiago Calazans de Souza**, comecei minha trajetória profissional como arte finalista/designer e ainda faço freelas de peças gráficas de vez em quando. Nesse meio tempo concluí o técnico em Tecnologia da Informação no IFBA — foi lá onde me encontrei profissionalmente e percebi que TI seria minha área profissional dali para frente. Atualmente sou graduando em Bacharelado de Ciência da Computação pela UniRuy Wyden (antes conhecida como Faculdade Ruy Barbosa) e estagiário de desenvolvimento na Serpro, atuando no setor de portais utilizando um CMS chamado Plone e utilizando as linguagens Python,HTML e CSS.   
+Me chamo **Thiago Calazans de Souza**, comecei minha trajetória profissional como arte finalista/designer e ainda faço freelas de peças gráficas de vez em quando. Nesse meio tempo concluí o técnico em Tecnologia da Informação no IFBA — foi lá onde me encontrei profissionalmente e percebi que TI seria minha área profissional dali para frente. Atualmente sou graduando em Bacharelado de Ciência da Computação pela UniRuy Wyden (antes conhecida como Faculdade Ruy Barbosa) e estagiário de desenvolvimento na Serpro, atuando no setor de portais lidando com um CMS chamado Plone e utilizando as linguagens Python, HTML e CSS.   
 
 Me identifico bastante com aquilo que há código, ou seja, curto linguagens front-end e back-end (com uma certa predileção ao front) e banco de dados. Sou proficiente em lógica, com conhecimento intermediário em HTML, CSS, Javascript, SQL e C# e conhecimento básico em Python.
 
