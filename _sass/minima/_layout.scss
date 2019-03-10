@@ -2,12 +2,16 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+  border-top: 4px solid $indigo-color;
+  box-shadow: 0px 2px 6px $grey-color-light;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
   position: relative;
+}
+
+.site-header img{
+  padding-right: 7px;
 }
 
 .site-title {
@@ -17,11 +21,16 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
+  color: $indigo-color;
 
   &,
   &:visited {
-    color: $text-color;
+    color: $indigo-color;
   }
+}
+
+.site-title:hover{
+  text-decoration: none;
 }
 
 .home .site-h1 {
@@ -94,7 +103,7 @@
       text-align: center;
 
       > svg {
-        fill: $grey-color-dark;
+        fill: $indigo-color;
       }
     }
 
