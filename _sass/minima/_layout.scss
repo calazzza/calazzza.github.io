@@ -199,6 +199,9 @@
   }
 }
 
+.social-media-list li {
+  display: inline
+}
 
 
 /**
@@ -238,7 +241,10 @@
   @include relative-font-size(1.5);
 }
 
-
+.subop {
+  color: $grey-color;
+  font-style: italic;
+}
 
 /**
  * Posts
@@ -287,9 +293,4 @@
       @include relative-font-size(1.125);
     }
   }
-}
-
-.subop {
-  color: $grey-color;
-  font-style: italic;
 }

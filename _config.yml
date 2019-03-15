@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Thiago Calazans
 #email: calazansthi@gmail.com
-description: "Estagiário de desenvolvimento na SERPRO e estudante do Bacharelado de Ciência da Computação"
+#description: "Estagiário de desenvolvimento na SERPRO e estudante do Bacharelado de Ciência da Computação"
 baseurl: "" 
 url: "" 
 linkedin_username: thiagocalazans
