@@ -209,13 +209,29 @@ pre {
  * Icons
  */
 
+.svg-logo {
+  width: 38px;
+  height: 38px;
+  display: inline-block;
+  fill: white;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+} 
+
 .svg-icon {
     width: 16px;
     height: 16px;
     display: inline-block;
     fill: #{$grey-color};
-    padding-right: 5px;
+    padding-right: 7px;
     vertical-align: text-top;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      fill: #{$grey-color-dark}
+    }
 }
 
 .social-media-list {
