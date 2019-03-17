@@ -49,11 +49,12 @@
 
 .home .site-h1 {
   font-size: 85px;
-  font-weight: bold;
+  font-weight: 800;
   padding: 0;
   margin: 0;
   opacity: 0;
   animation: fadeIn 1.5s forwards ease-in-out;
+  transition: all 0.3s ease-in-out;
   text-align: center;
 }
 
@@ -63,6 +64,12 @@
   }
   to {
       opacity: 1;
+  }
+}
+
+@include media-query($on-palm) {
+  .home .site-h1 {
+    font-size: 45px;
   }
 }
 
