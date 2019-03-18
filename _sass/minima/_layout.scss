@@ -6,10 +6,11 @@
   box-shadow: 0px 0px 6px $grey-color;
   min-height: $spacing-unit * 1.865;
   background: $indigo-color;
-  
+  transition: top 0.3s ease-out;
 
   // Positioning context for the mobile navigation icon
-  position: relative;
+  position: fixed;
+  width: 100%;
 
   & a, & a:visited{
     opacity: .95;
@@ -45,6 +46,12 @@
 
 .text-title {
   padding-left: 7px;
+}
+
+@include media-query($on-palm) {
+  .text-title {
+    font-size: 22px;
+  }
 }
 
 .home .site-h1 {
@@ -234,6 +241,7 @@
   flex: 1;
   display: flex;
   align-items: center;  
+  margin-top: 60px;
 }
 
 .page-heading {
