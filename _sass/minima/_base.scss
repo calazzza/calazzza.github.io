@@ -214,13 +214,18 @@ pre {
  * Icons
  */
 
-.svg-logo {
+#svg-logo {
   width: 40px;
   height: 40px;
   display: inline-block;
   fill: white;
   vertical-align: middle;
 } 
+
+.rotate {
+  transition: all 0.6s ease-out;
+  transform: rotate(360deg);
+}
 
 .svg-icon {
     width: 16px;
