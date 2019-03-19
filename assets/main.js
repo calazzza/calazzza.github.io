@@ -1,5 +1,5 @@
 window.onload = function(){
-    console.log("ok")
+    
     //Rolar página ao clicar no header
     document.getElementById("header-id").onclick = function() {
         document.body.scrollTop = 0; // For Safari
@@ -7,14 +7,17 @@ window.onload = function(){
     }
 
     //Exibição do header quanto à rolagem da página
-    var prevScrollpos = window.pageYOffset;
+    var prevScrollpos = window.pageYOffset; 
     window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
+        var currentScrollPos = window.pageYOffset; 
+        header = document.getElementById("header-id");
+        headerHeight = header.offsetHeight; console.log(headerHeight);
+        
         if (prevScrollpos > currentScrollPos) {
-            document.getElementById("header-id").style.top = "0";
-        } else {
-            document.getElementById("header-id").style.top = "-61px";
+            header.style.transform = "translateY(0px)";
+        } else if (prevScrollpos < currentScrollPos && currentScrollPos > headerHeight + headerHeight) {            
+            header.style.transform = "translateY(-"+ headerHeight +"px)";
         }
-        prevScrollpos = currentScrollPos;
+        prevScrollpos = currentScrollPos; 
     }
 };
