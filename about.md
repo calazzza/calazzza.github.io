@@ -10,9 +10,13 @@ Me identifico bastante com aquilo que há código e lógica, ou seja, curto ling
 
 ### Experiência
 
+**Tao Interativa**   
+Estágio em Desenvolvimento de Sistemas  
+<span class="subop">Desde Março/2019</span>
+
 **Serpro - Serviço Federal de Processamento de Dados**   
 Estágio em Desenvolvimento de Sistemas  
-<span class="subop">Desde Novembro/2018</span>
+<span class="subop">De Novembro/2018 a Março/2019</span>
 
 **Procuradoria Geral do Estado da Bahia**   
 Estágio em Desenvolvimento de Sistemas  
@@ -26,7 +30,7 @@ Arte finalista
 
 **Bacharelado em Ciência da Computação**   
 UniRuy Wyden   
-<span class="subop">Previsão de conclusão: junho de 2019</span>
+<span class="subop">Previsão de conclusão: Junho/2019</span>
 
 **Técnico em Tecnologia da Informação**  
 IFBA - Instituto Federal da Bahia   
