@@ -11,6 +11,7 @@
   // Positioning context for the mobile navigation icon
   position: fixed;
   width: 100%;
+  z-index: 1000;
 
   & a, & a:visited{
     opacity: .95;
@@ -24,9 +25,7 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
-  color: white;  
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  color: white;    
 
   &,
   &:visited {
@@ -35,17 +34,23 @@
 
   &,
   &:hover {
-    text-decoration: none;    
+    text-decoration: none;        
   }
 
-  &:hover {
-    background: $indigo-color-dark;
-    padding: 0 15px 0 15px;
+  & #svg-logo{
+    transition: width 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    -webkit-transition: width 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  }
+
+  &:hover #svg-logo{
+    width: 43px;  
+    transform: rotate(360deg);
   }
 }
 
 .text-title {
   padding-left: 7px;
+  color: white;
 }
 
 @include media-query($on-palm) {

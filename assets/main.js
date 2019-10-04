@@ -1,5 +1,11 @@
 window.onload = function(){
-    
+    header = document.getElementById("header-id");
+    logo = document.getElementById("svg-logo");
+
+    header.onmouseover = function(){
+        logo.classList.remove("rotate");
+    };
+
     //Rolar página ao clicar no header
     document.getElementById("header-id").onclick = function() {
         document.body.scrollTop = 0; // For Safari
@@ -9,8 +15,7 @@ window.onload = function(){
     //Observação da rolagem da página
     var prevScrollpos = window.pageYOffset; 
     window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset; 
-        header = document.getElementById("header-id");
+        var currentScrollPos = window.pageYOffset;         
         headerHeight = header.offsetHeight;        
         
         //Exibição do header quanto à rolagem
@@ -19,14 +24,14 @@ window.onload = function(){
         } else if (prevScrollpos < currentScrollPos && currentScrollPos > headerHeight + headerHeight) {            
             header.style.transform = "translateY(-"+ headerHeight +"px)";
         }
-        prevScrollpos = currentScrollPos; 
-
-        //Gira logo ao subir página
-        logo = document.getElementById("svg-logo");
-        if (currentScrollPos <= 15){            
-            logo.classList.add("rotate");
+        
+        //Gira logo ao subir página        
+        if (prevScrollpos > currentScrollPos && currentScrollPos <= 15){            
+            logo.classList.add("rotate");            
         } else {
             logo.classList.remove("rotate");
         }
+
+        prevScrollpos = currentScrollPos; 
     }
 };
