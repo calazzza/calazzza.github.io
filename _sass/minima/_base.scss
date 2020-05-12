@@ -227,6 +227,15 @@ pre {
   transform: rotate(360deg);
 }
 
+.p-name span {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  
+  &:hover {
+    color: #{$text-color};
+  }
+}
+
 .svg-icon {
     width: 16px;
     height: 16px;
@@ -240,6 +249,22 @@ pre {
     &:hover {
       fill: #{$grey-color-dark}
     }
+}
+
+svg#github:hover{
+  fill: #2A3F4C;
+}
+
+svg#linkedin:hover{
+  fill: #2867B2;
+}
+
+svg#instagram:hover{
+  fill: #C13584;
+}
+
+svg#twitter:hover{
+  fill: #38A1F3;
 }
 
 .social-media-list {

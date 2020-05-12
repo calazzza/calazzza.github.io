@@ -15,11 +15,13 @@
 # in the templates via {{ site.myvariable }}.
 title: Thiago Calazans
 #email: calazansthi@gmail.com
-#description: "Estagiário de desenvolvimento na SERPRO e estudante do Bacharelado de Ciência da Computação"
+#description: ""
 baseurl: "" 
 url: "" 
 linkedin_username: thiagocalazans
-github_username:  calazansthi
+github_username:  calazzza
+instagram_username: calazzza
+twitter_username: calazzza
 
 # Build settings
 markdown: kramdown
